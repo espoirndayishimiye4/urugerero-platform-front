@@ -1,38 +1,100 @@
-.App {
+.main {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-color: rgba(255, 255, 255, 0.993);
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.sub-main {
+  display: flex;
+ justify-content: center;
+  height: 390px;
+  width: 60%;
+  box-shadow: 11px 12px 13px 12px rgba(207, 207, 207 ,0);
+  padding-top: 0px;
+  background-color:rgba(4, 134, 32, 0.973) ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex ;
+}
+
+
+.Logo{
+  height: 100px;
+  width: 150px;
+  border-radius: px;
+  padding-right: 490px;
+}
+
+.name{
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+   border:px;
+   outline: none;
+   background-color: #fff;
+  
+}
+
+.email{
+  height: 20px;
+  width: 19px;
+  position:absolute;
+  padding: 13px;
+}
+
+.Lock{
+  height: 20px;
+  width: 25px;
+  position: absolute;
+  padding: 13px;
+}
+
+.name{
+  padding-left: 80px;
+  font-size: 15px;
+}
+
+.second-input{
+  padding-top: 20px;
+}
+
+button{
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  color: rgb(17, 16, 16);
+  font-size: 20px;
+  border: none;
+  box-shadow: inset 0px 0px 25px 0px #888;
+}
+
+
+
+.login-button{
+  padding-top: 15px;
+  
+}
+
+.link{
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+a{
+  color: rgb(13, 102, 40);
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px #888;
 }
