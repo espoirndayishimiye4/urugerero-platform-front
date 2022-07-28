@@ -9,7 +9,7 @@ class Navbar extends React.Component {
             <div className="container1">
                 <div className="logo">
                     <h2 className="text1">URUGERERO<a className="text0">platform</a> </h2>
-                    <h5 className="text2">Connect Rwandan Youth</h5>
+                    <h5 className="text2">Connect Rwandan Youth.</h5>
 
                 </div>
                 
