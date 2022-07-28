@@ -1,0 +1,19 @@
+.footer {
+  /* color: red; */
+  width: 100%;
+  height: 50px;
+  color: aliceblue;
+  background-color: #017143;
+  display: flex;
+
+  position: absolute;
+  bottom: 0px;
+  gap: 500px;
+  padding-top: 15px;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 10px;
+}
+.copyright {
+  font-weight: 200;
+}
