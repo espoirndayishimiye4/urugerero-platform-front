@@ -7,23 +7,39 @@
 }
 
 .cont1{
-  width: 1000px;
-  height: 700px;
-  background-color: green;
-  margin: 0 auto;
+  width: 100%;
+  /* height: 700px; */
+  background: hsl(255, 14%, 95%);
   margin-top: 150px;
-
-}
+  margin-top:20px; 
+  /* background-color: red; */
+} 
 .form-horizontal{
   width: 500px;
-  height: 600px;
-  background-color: yellow;
+  height: 600px; 
+  text-align:start ;
+  
   display: flex;
   flex-direction: column;
-  margin-left: 250px;
-  gap: 100px;
+  margin-left: 350px;
+  gap: 30px;
   border-radius: 20px;
+  font-size: 15px;
+  padding-top: 80px;
+}
 
+.links {
+  text-align: center;
+  color: green;
+}
+a {
+  color: green;
+}
+
+.form-signin-title {
+  text-align: center;
+  /* background-color: red; */
+  width: 350px;
 }
 
 .inputbutton{
@@ -33,9 +49,8 @@
   justify-content: center;
   width: 50%;
   margin-left: 15%;
-  padding-top: 80px;
-  gap: 90px;
-
+  padding-top: 60px;
+  gap: 40px;
 }
 
 .inputbutton input{
