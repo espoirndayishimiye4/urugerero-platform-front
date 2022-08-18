@@ -9,28 +9,26 @@
   height: 100%;
 } */
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   height: 380px;
   width: 100%;
   padding-top: 20px;
   gap: 80px;
-  background:#fff;
+  background: #fff;
 
-  justify-content:center ;
-  
+  justify-content: center;
 }
 
-.section-title{
+.section-title {
   /* width: 60%; */
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 5%;
-  
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
   /* padding: 20px;
@@ -42,10 +40,9 @@
   width: 100%;
   /* background: blue; */
   height: 50%;
-  
 }
 
-.col-card{
+.col-card {
   margin-top: ;
   width: 500px;
   /* height: 400px; */
