@@ -5,7 +5,7 @@ class Footer extends React.Component {
    render() {
     return (
         <div className="footermainbar">
-             <div className="container">
+             
                 <div className="footer">
                 <center>
                     <footer>
@@ -14,7 +14,7 @@ class Footer extends React.Component {
                 </center>
                      
                 </div>
-             </div>
+           
             
         </div>
     

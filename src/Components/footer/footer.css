@@ -5,7 +5,6 @@
   color: aliceblue;
   background-color: #017143;
   display: flex;
-
   position: absolute;
   bottom: 0px;
   gap: 500px;
@@ -16,4 +15,8 @@
 }
 .copyright {
   font-weight: 200;
+}
+
+.footermainbar{
+  color: #fff;
 }
